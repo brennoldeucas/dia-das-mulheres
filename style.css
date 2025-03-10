@@ -16,9 +16,11 @@
 
 html, body{
 
-    background-image: -moz-linear-gradient(to bottom, black ,gray);
+    background-color: wheat;
     font-family: var(--font-padrao);
-    height: 100vh;   
+    height: 100vh;
+    background-size: contain;
+    background-position: top center;
     
 }
 
