@@ -21,7 +21,7 @@ html, body{
     height: 100vh;
     background-size: contain;
     background-position: top center;
-    box-shadow: 3px 3px 3px 3px black inset;
+    box-shadow: 3px 3px 3px 4px black inset;
     
 }
 
