@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+:root{
+    --font-love: ;
+    --font-padrao: arial,helvetica,sans-serif;
+
+}
+
+html, body{
+
+    background-image: -moz-linear-gradient(to bottom, black ,gray);
+    font-family: var(--font-padrao);
+    height: 100vh;   
+    
+}
+
+.efeito{
+    font-size: 7vw;
+    font-weight: 700;
+    border-right: 4px solid lightcoral;
+    text-align: center;
+    color: rgb(248, 246, 246);
+    font-family: var(--font-love);
+    animation: blinkmarker 0.5s infinite,
+    typing 5s infinite steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 22ch;
+    padding-left: 40px;
+    
+}
+
+@keyframes blinkmarker {
+    50% {
+        border-right: transparent;
+    }
+}
+
+@keyframes typing{
+    0% {
+        width: 0;
+    }
+
+    40% {
+        width: 22ch;
+    }
+
+    60% {
+        width: 22ch;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes p {
+    50% {
+        color: lightcoral;
+        font-size: 7vw;
+    }
+}
+
+.efeito > span {
+    color: lightcoral;
+}
+
+
+header > p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 3px 3px 4px black;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    padding-bottom: 30px;
+    animation: p 1s infinite;
+    
+}
+
+header > p::after{
+    content: ;
+}
+
+section#img{
+    background-color: rgb(0, 0, 0);
+    width: 60vw;
+    height: 50vh;
+    margin:auto; 
+    padding: 30px;     
+    border-radius: 10px;
+    background-image: url(imagens/tecido-tricoline-tecido-tricoline-digital-flores-com-fundo-azul-marinho-100-algodao-des-9005-larg-1-50-m-1681829316561.png);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+section#img > img{
+    width: 100%;  
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+section#musica{
+    background-color: rgb(0, 0, 0);
+    height: 9vh;
+    margin: 20px;  
+    border-radius: 10px;
+    width: 60vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+
+    
+
+
+section#musica > h1 {
+    background-color: lightcoral;
+    height: 15vh;     
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    background-image: url(imagens/IMG_20250308_204644.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+    
+}
+
